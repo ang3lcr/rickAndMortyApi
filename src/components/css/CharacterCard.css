@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+.character-card{
+  width: 370px;
+  height: 500px;
+  background-color: #371B58;
+  margin-bottom: 5%;
+}
+
+.character-name{
+  font-size: 25px;
+  border-bottom: 1px solid gray;
+  color: white;
+  padding-left: 10px;
+  margin-top: 10px;
+
+}
+
+.character-img{
+  height: 60%;
+}
+
+.data-text{
+  color: white;
+  font-size: 20px;
+}
+
+
+
+
+.data-title{
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  color: gray;
+  font-size: 15px;
+}
+
+.character-info{
+  height: 40%;
+}
+
+.image-container{
+  width: 100%;
+  height: 40%;
+}
+
+.character-info{
+  width: 100%;
+}
+.race{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.origin{
+  margin-top: 10px;
+  margin-left: 10px;
+  }
+
+.episodes{
+  margin-top: 10px;
+  margin-left: 10px;
+}
